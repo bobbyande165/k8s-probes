@@ -5,7 +5,7 @@ metadata:
 spec:
   type: NodePort 
   selector:
-    app: my-app-red
+    app: my-red-app
   ports:
     - port: 80
       nodePort: 32000  
